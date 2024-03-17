@@ -35,6 +35,14 @@ app.post("/update/:name",async (req, res) => {
     console.log("sucessfully updated");
 })
 
+app.get("/notifications/:user_id",async (req, res) => {
+
+    let data = await user.updateOne({"name":req.params.name},{$set:req.body});
+    console.log(data);
+    res.send(data);
+    console.log("sucessfully updated");
+})
+
 
 
 //url param 

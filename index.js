@@ -45,6 +45,6 @@ app.get("/notifications/:user_id",async (req, res) => {
 
 //url param 
 //querry params =>
-//body
+//body 123
 
 app.listen(5000);

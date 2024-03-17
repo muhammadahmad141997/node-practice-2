@@ -43,11 +43,8 @@ app.get("/notifications/:user_id",async (req, res) => {
     console.log("sucessfully updated");
 })
 
-
-
 //url param 
 //querry params =>
 //body
-//
 
 app.listen(5000);

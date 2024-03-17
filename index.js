@@ -24,7 +24,7 @@ app.delete("/delete",async (req, res) => {
     let data = await user.deleteOne({"name":req.query.name});
     console.log(data);
     res.send(data);
-    console.log("sucessfully deleted");
+    console.log("sucessfully deleteed");
 })
 
 app.post("/update/:name",async (req, res) => {
